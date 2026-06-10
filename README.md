@@ -58,11 +58,8 @@ Human language is inherently variable and difficult to compress into determinist
 The system maintains a persistent patient context capable of tracking:
 - Identified symptoms
 - Symptom severity
-- Symptom duration
-- Patient age
-- Patient gender
 - Previous conversation state
-This enables continuity across multiple conversational turns.
+However, the system does not take the user's age, gender or the duration that the user was suffering from the condition. This is another limitation with the system as such
 
 ### 3. Weighted Condition Scoring
 - Matches extracted symptoms against condition profiles stored in medical_diseases.json.
